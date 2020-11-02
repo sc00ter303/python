@@ -1,8 +1,6 @@
 f = open('myswitches')
 
 for line in f:
-	print(line)
+	print("sh ip route " + line)
 	
 f.close()
-
-# run by typing "python testloop.py"
